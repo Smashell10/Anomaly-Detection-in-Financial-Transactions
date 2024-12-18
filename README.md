@@ -1,2 +1,3 @@
 # Anomaly-Detection-in-Financial-Transactions
-Using LSTM, RNN
+For LSTM:
+  The LSTM model was trained for 80 epochs on the credit card data present in Kaggle at https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. The data had PCA        already applied to it. Since the data was highly unbalanced, we used SMOTE to make it balanced. The trained weights can be found in the file                           "lstm_model_weights.pth". Our LSTM model considers 10 time steps at a single time. We were able to achieve a test accuracy of 99.88%. Since PCA was applied to this    dataset we weren't able to apply any explainable AI techniques to it since the columns are not meaningful.
