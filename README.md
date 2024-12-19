@@ -47,9 +47,4 @@ Financial fraud detection is a critical task for banks, payment gateways, and fi
 - Seaborn
 - Scikit-learn
 - TensorFlow / Keras
-- SHAP
-
-You can install the required packages using:
-
-```bash
-pip install -r requirements.txt
+- Lime
