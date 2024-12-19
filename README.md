@@ -3,7 +3,7 @@ For LSTM:
   The LSTM model was trained for 80 epochs on the credit card data present in Kaggle at https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. The data had PCA        already applied to it. Since the data was highly unbalanced, we used SMOTE to make it balanced. The trained weights can be found in the file                           "lstm_model_weights.pth". Our LSTM model considers 10 time steps at a single time. We were able to achieve a test accuracy of 99.88%. Since PCA was applied to this    dataset we weren't able to apply any explainable AI techniques to it since the columns are not meaningful.
 
 
-# Fraud Detection with Autoencoder and LSTM
+# Fraud Detection with Autoencoder and LSTM (File - ML_Final_project.ipynb
 
 This repository contains a machine learning project aimed at detecting fraudulent financial transactions. The project leverages an autoencoder for feature extraction and dimensionality reduction, followed by an LSTM-based classifier to distinguish between legitimate and fraudulent transactions. The dataset used is the **PaySim** dataset from Kaggle.
 
