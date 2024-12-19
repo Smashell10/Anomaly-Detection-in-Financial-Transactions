@@ -1,4 +1,4 @@
-#Authors : Harshal Gajjar, Rohan Allen, Muhammad Faayez
+# Authors : Harshal Gajjar, Rohan Allen, Muhammad Faayez
 
 # Anomaly-Detection-in-Financial-Transactions
 For LSTM:
